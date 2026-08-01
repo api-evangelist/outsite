@@ -1,7 +1,14 @@
 aid: outsite
 name: Outsite
-description: Outsite is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Outsite is a coliving and community platform for remote workers, digital
+  nomads, and distributed teams. It operates a global network of fully-furnished coliving
+  spaces, curated stays, and cowork cafes across more than twenty destinations including
+  Lisbon, Barcelona, Bali, Oaxaca, and Costa Rica, pairing dedicated coworking areas
+  and fast WiFi with a built-in community of remote professionals. Outsite sells yearly
+  and lifetime memberships, curated month-long Outsite Trips, and team retreat and
+  business membership offerings for companies. It was surfaced as a 500 Global portfolio
+  company; Outsite is a consumer hospitality and travel brand and publishes no public
+  developer API, SDK, or webhook surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/outsite/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://cdn.outsite.co/cms/home_open_graph_img_02c64193dd.jpg
 tags:
 - Company
+- Coliving
+- Coworking
+- Remote Work
+- Digital Nomads
+- Travel
+- Hospitality
+- Membership
+- Community
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,20 @@ maintainers:
 common:
 - type: Website
   url: https://outsite.co
+- type: Blog
+  url: https://outsite.co/blog
+- type: Support
+  url: https://outsite.co/help
+- type: Pricing
+  url: https://outsite.co/membership
+- type: TermsOfService
+  url: https://outsite.co/terms
+- type: PrivacyPolicy
+  url: https://outsite.co/privacy-policy
+- type: DomainSecurity
+  url: security/outsite-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
